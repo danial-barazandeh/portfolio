@@ -4,24 +4,37 @@
   }
 
   .header>.rightSide {
-    @apply m-0 w-[70%] bg-backgroundColor2 h-full flex justify-center  bg-polka-dots-pattern;
+    @apply m-0 w-[70%] bg-backgroundColor2 h-full flex justify-center bg-polka-dots-pattern;
   }
 
   .header>.leftSide {
-    @apply m-0 w-[30%] bg-backgroundColor h-full;
+    @apply m-0 w-[30%] bg-backgroundColor h-full z-10;
   }
   .title{
     @apply text-white text-3xl text-center m-16;
   }
 
   .introduction{
-    @apply text-white text-xl text-center absolute bottom-[10%] left-[10%] flex-col justify-items-start  justify-start content-start items-start;
+    @apply text-white text-xl text-center absolute bottom-[10%] left-[10%] flex-col justify-items-start  justify-start content-start items-start z-20;
   }
   .introduction>.child{
     @apply text-left;
   }
   .introduction>.childWithAccent{
     @apply bg-accentColor py-4 px-2 rounded-lg text-center my-2;
+  }
+
+
+
+
+  .body{
+    @apply bg-backgroundColor2 text-white flex p-8 h-[50vh];
+  }
+  .body>.leftSide {
+    @apply w-[40%] text-center flex-col;
+  }
+  .body>.rightSide{
+    @apply w-[60%];
   }
 
 }

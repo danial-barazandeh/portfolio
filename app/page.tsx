@@ -16,7 +16,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.rightSide}>
-          <Lottie/>
+          <Lottie />
         </div>
 
         <div className={styles.introduction}>
@@ -25,6 +25,29 @@ export default function Home() {
           <div className={styles.childWithAccent}>Mobile & Web</div>
         </div>
 
+      </div>
+
+      <div className={styles.body}>
+        <div className={styles.leftSide}>
+          
+          <div className="text-3xl font-bold"> About me </div>
+
+          <div className="relative mt-[12%] ml-[20%]">
+            <div className="
+                  bg-[url('http://localhost:3000/images/meTemplate.jpg')]
+                  w-[20vh] h-[30vh] bg-cover absolute z-10 top-[-2.5vh] left-[2.5vh]">
+
+            </div>
+            <div className="w-[20vh] h-[30vh] border-accentColor border-8
+                            absolute">
+            </div>
+          </div>
+
+        </div>
+
+        <div className={styles.rightSide}>
+            nemidonam
+          </div>
       </div>
 
     </main>
