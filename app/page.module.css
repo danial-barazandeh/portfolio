@@ -11,30 +11,34 @@
     @apply m-0 w-[30%] bg-backgroundColor h-full z-10;
   }
   .title{
-    @apply text-white text-3xl text-center m-16;
+    @apply text-white text-center m-8 text-lg sm:m-8 sm:text-xl  md:m-10  md:text-2xl lg:m-12  lg:text-3xl xl:m-14 xl:text-3xl 2xl:m-16 2xl:text-4xl;
   }
 
-  .introduction{
+  .introduction {
     @apply text-white text-xl text-center absolute bottom-[10%] left-[10%] flex-col justify-items-start  justify-start content-start items-start z-20;
   }
-  .introduction>.child{
-    @apply text-left;
+  .introduction>.child {
+    @apply text-left text-lg sm:text-lg md:text-xl lg:text-xl xl:text-2xl 2xl:text-2xl;
   }
-  .introduction>.childWithAccent{
-    @apply bg-accentColor py-4 px-2 rounded-lg text-center my-2;
+  .introduction>.childWithAccent {
+    @apply bg-accentColor p-3 sm:p-3 md:p-3 lg:p-3 2xl:p-4 rounded-lg text-center my-2 text-sm sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-xl; 
   }
 
 
 
 
-  .body{
+  .body {
     @apply bg-backgroundColor2 text-white flex p-8 h-[50vh];
   }
   .body>.leftSide {
     @apply w-[40%] text-center flex-col;
   }
+
   .body>.rightSide{
-    @apply w-[60%];
+    @apply w-[60%] flex-col ml-8;
   }
+
+
+
 
 }

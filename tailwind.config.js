@@ -15,8 +15,9 @@ module.exports = {
         backgroundColor2: "#313131"
       },
       backgroundImage: {
-        'dot-pattern': "url('http://localhost:3000/svg/dot.svg')",
-        'polka-dots-pattern': "url('http://localhost:3000/svg/polka-dots.svg')",
+        'dot-pattern': "url('/svg/dot.svg')",
+        'polka-dots-pattern': "url('/svg/polka-dots.svg')",
+        'me': "url('/images/meTemplate.jpg')",
       }
     },
   },
