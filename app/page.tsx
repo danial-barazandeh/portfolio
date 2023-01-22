@@ -9,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <main>
+    <main className="bg-backgroundColor">
       <div className={styles.header}>
 
         <div className={styles.leftSide}>
@@ -66,7 +66,12 @@ export default function Home() {
         </div>
 
 
-        <div className=" bg-backgroundColor w-[100vh] h-[50%]">
+        <div className="bg-backgroundColor h-[50%] flex justify-center mt-16">
+         
+          <div className="flex-col">
+            <span className="text-white text-2xl"> Some of my projects</span>
+            <div className="border-b-4 border-accentColor w-[100%] my-2"></div>
+          </div>
           <Swiperr />
         </div>
 

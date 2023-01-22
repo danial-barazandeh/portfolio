@@ -23,7 +23,7 @@ export default function Swiperr() {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
     >
-        <SwiperSlide className='flex items-center justify-center justify-items-center gap-8 px-[5vw] bg-red-800' key="key">
+        <SwiperSlide className='flex items-center justify-center justify-items-center gap-8 px-[5vw]' key="key">
 
             <div className='w-[70vh] h-[40vh] overflow-hidden rounded-3xl backgr bg-[url("http://localhost:3000/images/mobileWorldSlider.jpg")] bg-cover bg-no-repeat bg-center'>
             </div>
