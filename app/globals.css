@@ -11,5 +11,5 @@
     font-family: OpenSans;
   }
   .sizing {
-    @apply w-[6rem] h-[8rem] sm:w-[10rem] sm:h-[12rem] md:w-[16rem] md:h-[20rem] lg:w-[20rem] lg:h-[24rem] xl:w-[24rem] xl:h-[32rem] bg-cover bg-no-repeat;
+    @apply w-[6rem] h-[8rem] sm:w-[10rem] sm:h-[12rem] md:w-[16rem] md:h-[20rem] lg:w-[16rem] lg:h-[20rem] xl:w-[16rem] xl:h-[20rem] bg-cover bg-no-repeat;
   }
