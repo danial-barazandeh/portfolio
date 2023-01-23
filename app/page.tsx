@@ -29,13 +29,13 @@ export default function Home() {
 
       </div>
 
-      <div className="flex-row w-[100%]">
+      <div className="flex flex-col">
 
         <div className={styles.body}>
 
           <div className={styles.leftSide}>
 
-            <div className="relative mt-[12%] w-[20%]">
+            <div className="relative mt-[12%] w-[100%] ml-[10vh]">
               <div className="bg-me bg-contain bg-center absolute z-10 top-[-2.5vh] left-[2.5vh] sizing">
 
               </div>
@@ -66,13 +66,19 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-backgroundColor h-[50%] flex justify-center mt-16">
-         
-          <div className="flex-col">
-            <span className="text-white text-2xl"> Some of my projects</span>
-            <div className="border-b-4 border-accentColor w-[100%] my-2"></div>
+        <div className="mt-16 flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row">
+
+          <div className="w-[100%] lg:w-[50%] xl:w-[40%] 2xl:w-[30%] mb-16">
+            <div className="flex flex-col ml-[10vh]">
+              <span className="text-white text-2xl"> Some of my projects</span>
+              <div className="border-b-4 border-accentColor w-[90%] my-2"></div>
+            </div>
           </div>
-          <Swiperr />
+
+          <div className="flex justify-center items-center mx-[5%] w-[90%] lg:w-[60%] xl:w-[60%] 2xl:w-[50%]">
+            <Swiperr />
+          </div>
+
         </div>
 
       </div>
