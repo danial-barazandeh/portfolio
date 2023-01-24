@@ -35,11 +35,11 @@ export default function Home() {
 
           <div className={styles.leftSide}>
 
-            <div className="relative mt-[12%] w-[100%] ml-[10vh]">
+            <div className="relative mt-[20vh] xs:mt-[0px] md:[0px] lg:[0px] w-[100%] ml-[2vh]">
               <div className="bg-me bg-contain bg-center absolute z-10 top-[-2.5vh] left-[2.5vh] sizing">
 
               </div>
-              <div className="border-accentColor border-8 first-letter:absolute sizing">
+              <div className="border-accentColor border-8 absolute sizing">
               </div>
             </div>
 

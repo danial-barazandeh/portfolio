@@ -28,7 +28,7 @@
 
 
   .body {
-    @apply bg-backgroundColor2 text-white flex h-[50vh]  p-0 m-0;
+    @apply bg-backgroundColor2 text-white flex h-[50vh] md:h-[60vh] xl:h-[60vh] 2xl:h-[60vh]  p-0 m-0;
   }
   .body>.leftSide {
     @apply w-[30%] text-center;
